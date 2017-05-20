@@ -1,0 +1,82 @@
+body{
+	background: url('../img/BG.png');
+	background-size: cover;
+}
+#section{
+	width: 800px;
+	margin: 50px auto;
+}
+#section .tabs{
+	overflow: hidden; 
+
+}
+ul li{
+	list-style: none;
+}
+.tabs li a{
+	color: #fff;
+	text-decoration: none;
+}
+#section .tabs li{
+	float: left;
+}
+.tabs{
+   cursor: pointer;
+   border: 1px solid #2b3040;
+   margin: 0;
+   padding:0 40px;
+   background: #2b3040;
+   height: 
+}
+
+.tabs .tab{
+	padding: 5px 30px;
+}
+.tabs .tab h2{
+	margin: 0;
+	padding-bottom: 20px;
+}
+.tabs .tab img{
+	padding: 5px 70px;
+}
+#info,
+#rating,
+#buy{
+	position: relative;
+	border: 1px solid #212534;
+	padding: 0 16px;
+}
+
+.tabs-content{
+	background: #212534;
+	color: #fff;
+}
+.tabs-content p{
+   padding: 20px 30px 20px 0;
+}
+.tabs-content h1{
+	margin-top: 50px;
+}
+.tabs-content .page{
+	float: left;
+	padding: 30px 60px;
+}
+.tabs-content .result{
+	float: right;
+	position: absolute;
+	top: 10%;
+	right: 10%;
+
+}
+.tabs-content .flex{
+	clear: both;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+button{
+	width: 170px;
+	height: 60px;
+	background: #13e28d;
+	border-color: #13e28d;
+}
